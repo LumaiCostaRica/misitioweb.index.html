@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Próximas Actividades - Nudismo Lumai</title>
+    <style>
+        :root {
+            --primary: #2c4a3e;       /* Verde bosque profundo */
+            --accent: #dca17a;        /* Terracota / Arena cálida suave */
+            --bg-light: #faf7f2;      /* Crema suave muy relajante */
+            --text-dark: #2b2b2b;     /* Gris casi negro para lectura cómoda */
+            --white: #ffffff;
+        }
 
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+        }
+
+        /* Barra de Navegación Superior */
+        nav {
+            background-color: var(--white);
+            padding: 20px 40px;
+            display: block;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: var(--primary);
+            letter-spacing: 1px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .nav-links {
+            display: block;
+            margin-top: 5px;
+        }
+
+        .nav-links a {
+            color: var(--text-dark);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.95em;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Contenedor Principal */
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-title {
+            color: var(--primary);
+            font-size: 2em;
+            position: relative;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 50px;
+            height: 3px;
+            background-color: var(--accent);
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Tarjeta de Actividad */
+        .activity-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+            padding: 40px;
+            margin-bottom: 30px;
+        }
+
+        .activity-meta {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+            color: #777;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            flex-wrap: wrap;
+        }
+
+        .meta-item {
+            background-color: #f0eae1;
+            padding: 4px 12px;
+            border-radius: 4px;
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .activity-card h3 {
+            color: var(--primary);
+            font-size: 1.8em;
+            margin-bottom: 15px;
+        }
+
+        .activity-details h4 {
+            color: var(--primary);
+            margin: 20px 0 8px 0;
+            font-size: 1.1em;
+        }
+
+        .activity-details ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .btn {
+            background-color: var(--accent);
+            color: var(--white);
+            padding: 14px 40px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            display: inline-block;
+            font-size: 1.1em;
+            transition: transform 0.2s, background-color 0.3s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            background-color: #cb8f67;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">LUMAI COSTA RICA</div>
+        <div class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="actividades.html">Próximas Actividades</a>
+            <a href="reservas.html">Reservar Espacios</a>
+            <a href="faq.html">Preguntas Frecuentes</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="page-header">
+            <h2 class="section-title">Próximas Actividades</h2>
+        </header>
+
+        <article class="activity-card">
+            <div class="activity-meta">
+                <span class="meta-item">📅 Domingo 26 de Julio, 2026</span>
+                <span class="meta-item">📍 Cartago, Costa Rica</span>
+            </div>
+
+            <h3>Caminata Naturista y Conexión en el Bosque</h3>
+            
+            <div class="activity-details">
+                <p>Te invitamos a una experiencia de desconexión urbana y reconexión corporal en un entorno natural privado y completamente seguro. Una actividad ideal para liberar tensiones, practicar la autoaceptación y disfrutar de la naturaleza en un ambiente de respeto absoluto.</p>
+                
+                <h4>¿Qué incluye la actividad?</h4>
+                <ul>
+                    <li>Acceso a senderos privados en el bosque.</li>
+                    <li>Sesión guiada de meditación y toma de tierra (grounding).</li>
+                    <li>Espacio seguro de convivencia naturista.</li>
+                    <li>Refrigerio ligero al finalizar el recorrido.</li>
+                </ul>
+
+                <h4>Logística e indicaciones importantes:</h4>
+                <ul>
+                    <li><strong>Punto de encuentro:</strong> Se enviará la ubicación exacta por privado tras confirmarse la reserva.</li>
+                    <li><strong>Qué llevar:</strong> Ropa cómoda para el inicio, calzado de montaña, protector solar, repelente contra insectos, agua y un paño o manta para sentarse.</li>
+                    <li><strong>Privacidad:</strong> No se permite el uso de teléfonos celulares ni cámaras fotográficas durante la experiencia naturista.</li>
+                </ul>
+            </div>
+
+            <div class="btn-container">
+                <a href="reservas.html" class="btn">Reservar Mi Espacio</a>
+            </div>
+        </article>
+        </div>
+
+    <footer>
+        <p>&copy; 2026 Nudismo Lumai Costa Rica. Espacio de Conexión Natural.</p>
+        <p style="font-size: 0.8em; margin-top: 10px; opacity: 0.6;">Diseño optimizado y alojado de forma segura en Cloudflare Pages.</p>
+    </footer>
+
+</body>
+</html>
